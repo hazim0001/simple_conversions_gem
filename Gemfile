@@ -3,7 +3,7 @@
 source "https://rubygems.org"
 
 # Specify your gem's dependencies in simple_conversions.gemspec
-gemspec
+# gemspec
 
 gem "rake", "~> 13.0"
 
