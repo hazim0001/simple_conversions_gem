@@ -5,11 +5,11 @@ require_relative "simple_conversions/version"
 
 module SimpleConversions
   class Error < StandardError; end
-  CELSIUS_FREEZING_POINT = 0 # "0°C"
-  CELSIUS_BOILING_POINT = 100 # "100°C"
+  CELSIUS_FREEZING_POINT = 0 # "0C"
+  CELSIUS_BOILING_POINT = 100 # "100C"
 
-  FAHRENHEIT_FREEZING_POINT = 32 # "32°F"
-  FAHRENHEIT_BOILING_POINT = 212 # "212°F"
+  FAHRENHEIT_FREEZING_POINT = 32 # "32F"
+  FAHRENHEIT_BOILING_POINT = 212 # "212F"
 end
 
 class Temperature
