@@ -22,7 +22,27 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+Convert Temperature
+
+From Celsius to Fahrenheit
+```ruby
+temperature_in_celsius = 25
+Temperature.c_to_f(temperature_in_celsius) # => 77.0°F
+```
+From Fahrenheit to Celsius
+```ruby
+temperature_in_fahrenheit = 100
+Temperature.c_to_f(temperature_in_fahrenheit) # => 37.78°C
+```
+
+You can also get the Freezing and Boiling points in °F or C°
+
+```ruby
+Temperature::CELSIUS_FREEZING_POINT # => 0
+Temperature::CELSIUS_BOILING_POINT # => 100
+Temperature::FAHRENHEIT_FREEZING_POINT # => 32
+Temperature::FAHRENHEIT_BOILING_POINT # => 212
+```
 
 ## Development
 
@@ -32,7 +52,7 @@ To install this gem onto your local machine, run `bundle exec rake install`. To 
 
 ## Contributing
 
-Bug reports and pull requests are welcome on GitHub at https://github.com/[USERNAME]/simple_conversions. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [code of conduct](https://github.com/[USERNAME]/simple_conversions/blob/master/CODE_OF_CONDUCT.md).
+Bug reports and pull requests are welcome on GitHub at https://github.com/hazim0001/simple_conversions. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [code of conduct](https://github.com/[USERNAME]/simple_conversions/blob/master/CODE_OF_CONDUCT.md).
 
 ## License
 

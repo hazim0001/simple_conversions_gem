@@ -11,7 +11,7 @@ Gem::Specification.new do |spec|
   spec.summary       = " Write a short summary, because RubyGems requires one."
   spec.homepage      = "https://github.com/hazim0001/simple_conversions"
   spec.license       = "MIT"
-  spec.required_ruby_version = Gem::Requirement.new(">= 2.4.0")
+  spec.required_ruby_version = ">= 2.4.0"
 
   # spec.metadata["allowed_push_host"] = " Set to 'http://mygemserver.com'"
 
