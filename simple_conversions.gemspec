@@ -8,7 +8,7 @@ Gem::Specification.new do |spec|
   spec.author        = "Hazim Nour"
   spec.email         = ["hazim_alsayed@hotmail.com"]
 
-  spec.summary       = " Write a short summary, because RubyGems requires one."
+  spec.summary       = " My first Gem for conversions."
   spec.homepage      = "https://github.com/hazim0001/simple_conversions"
   spec.license       = "MIT"
   spec.required_ruby_version = ">= 2.4.0"
